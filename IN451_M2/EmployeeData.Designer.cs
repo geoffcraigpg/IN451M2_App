@@ -43,10 +43,11 @@
             lblCustomerDataTitle.Font = new Font("Segoe UI", 13.8F, FontStyle.Bold, GraphicsUnit.Point, 0);
             lblCustomerDataTitle.Location = new Point(352, 29);
             lblCustomerDataTitle.Name = "lblCustomerDataTitle";
-            lblCustomerDataTitle.Size = new Size(173, 31);
+            lblCustomerDataTitle.Size = new Size(174, 31);
             lblCustomerDataTitle.TabIndex = 0;
-            lblCustomerDataTitle.Text = "Customer Data";
+            lblCustomerDataTitle.Text = "Employee Data";
             lblCustomerDataTitle.TextAlign = ContentAlignment.MiddleCenter;
+            lblCustomerDataTitle.Click += lblCustomerDataTitle_Click;
             // 
             // lblNumberofEmployees
             // 

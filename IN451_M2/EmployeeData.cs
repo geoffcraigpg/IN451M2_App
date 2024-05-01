@@ -35,5 +35,10 @@ namespace IN451_M2
             frmWelcome.Show();
             this.Hide();
         }
+
+        private void lblCustomerDataTitle_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
